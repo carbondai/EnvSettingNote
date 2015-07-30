@@ -1,0 +1,18 @@
+1.安装java
+解压：tar zxvf jdk-8u20-linux-i586.tar.gz
+将jdk1.8.0...拷贝到安装目录下
+配置环境变量vim ~/.bashrc,加入
+export JAVA_HOME=/../
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=${JAVA_HOME}/bin:$PATH
+使用命令source ~/.bashrc
+
+2.安装eclipse
+解压到安装目录
+配置全局环境，在PATH中加入安装目录
+
+3.使用PPA源安装最新版GIT
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
