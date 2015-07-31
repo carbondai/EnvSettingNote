@@ -10,7 +10,7 @@ export PATH=${JAVA_HOME}/bin:$PATH
 
 2.安装eclipse
 解压到安装目录
-配置全局环境，在PATH中加入安装目录
+配置全局环境，在export PATH=中加入安装目录
 
 3.使用PPA源安装最新版GIT
 sudo add-apt-repository ppa:git-core/ppa
